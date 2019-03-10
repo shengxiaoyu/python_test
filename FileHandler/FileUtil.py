@@ -38,5 +38,5 @@ def getDOCContent(filePath):
 
 
 if __name__=='__main__':
-    b = BDFH ;
-    len(BDFH)
+    path = r'E:\研二1\学术论文\准备材料2\离婚纠纷第二批（分庭审笔录）\含庭审笔录\(2017)津0104民初9121号\庭审笔录\9121李双庆第一次开庭笔录.doc'
+    print(getDOCContent(path))
